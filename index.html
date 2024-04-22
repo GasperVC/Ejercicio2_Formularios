@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formularios basicos</title>
+</head>
+
+<body>
+    <!--Parte del ppt-->
+    <form>
+        <label for="fname">First name: <input type="text" name="fanme" id="fname" placeholder="First" size="25"
+                maxlength="2"></label>
+        <br>
+        <label for="lname">Last name: <input type="text" name="lname" id="lname"></label>
+        <br><br>
+        <label for="botoncito">Un claro boton <input type="button" onclick="document.getElementById('lname').placeholder = 'secundario'" value="seleccionado"></label>
+        <br>
+        <label for="checkboxiano1">Un checbox <input type="checkbox" name="checkboxiano" id="checkboxiano1"
+                checked></label>
+        <br>
+        <label for="checkboxiano2">otro checbox <input type="checkbox" name="checkboxiano" id="checkboxiano2"></label>
+        <br>
+        <label for="colorcin">Elige color <input type="color" name="asd" id="colorcin" value="#dddddd"></label>
+        <br>
+        <label for="fechaz">que dia tomas <input type="date" name="www" id="fechaz" value="now"></label>
+        <br>
+        <select name="pepe" id="godcito">
+            <option value="parao">parao</option>
+            <option value="sentao">sentao</option>
+            <option value="acostado" selected>acostado</option>
+        </select>
+        <br>
+        <select name="ciudades" size="5" multiple="multiple">
+            <option value="madrid">Madrid</option>
+            <option value="murcia">Murcia</option>
+            <option value="barcelona">Barcelona</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label> <br />
+            <input type="text" id="nombre" name="nombre" />
+            <br />
+            <label for="dni">DNI</label> <br />
+            <input type="text" id="dni" name="dni" size="10" maxlength="9" />
+        </fieldset>
+        <br>
+        <input type="radio" name="unitario" id="parao" value="parao">
+        <label for="parao">Parao</label><br>
+        <input type="radio" name="unitario" id="sentao" value="sentao">
+        <label for="sentao">Sentao</label><br>
+        <input type="radio" name="unitario" id="acostao" value="acostado">
+        <label for="acostao">Acostao</label><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="LO BORROOO">
+<br><br>
+    </form>
+    <form>
+        <label for="text">JAAA</label>
+        <input type="text" name="texto" id="texto">
+        <br><br>
+        <label for="radio">circular</label>
+        <input type="radio" name="radioInput" id="radInput1" value="JAA1">
+        <input type="radio" name="radioInput" id="radInput2" value="JAA2">
+        <input type="radio" name="radioInput" id="radInput3">
+        <input type="radio" name="radioInput" id="radInput4">
+        <label for="checbox"></label>
+        <br><br>
+        <label for="username1">Enter your username:</label>
+        <input id="username1" name="username1" type="text">
+        <label for="username">Forgot your username?</label>
+    </form>
+</body>
+
+</html>
